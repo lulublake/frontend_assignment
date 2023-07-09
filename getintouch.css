@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    background-image: url(lemongreenbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 350px;
+}
+h1{
+    font-size: 28px;
+    letter-spacing: 0.1px;
+}
+input{
+    margin-bottom: 10px;
+    padding: 10px 170px 12px 40px;
+    border-radius: 20px;
+    border-width: 0;
+    font-size: 12px;
+    background-color: lightgray;
+}
+textarea{
+    display: flex;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-top: 12px;
+    background-color: lightgray;
+    border-width: 0;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(251, 251, 251, 0.947);
+    padding: 60px 0;
+    margin-top: 10%;
+    width: 65vw;
+    border-radius: 20px;
+}
+.text-container{
+    position: relative;
+}
+.img-container{
+    align-self: center;
+}
+button{
+    background-color: rgb(53, 212, 53);
+    padding: 12px 166px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+    border: none;
+}
+.user-icon{
+    position: absolute;
+    top: 81.5px;
+    left: 20px;
+    font-size: 12px;
+}
+.email-icon{
+    position: absolute;
+    top: 127px;
+    left: 20px;
+    font-size: 12px;
+}
+::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
