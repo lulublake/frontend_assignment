@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    background-image: url(desk-with-objects.jpg);
+    background-size: 100vw;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    padding-top: 70px;
+    padding-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+label{
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+input{
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    border-color: rgb(230, 255, 255);
+}
+::placeholder{
+    font-size: 14px;
+    color: lightgray;
+}
+#f_name, #l_name{
+    padding-right: 90px;
+}
+#f_name{
+    margin-right: 20px;
+}
+#email{
+    padding-right: 381px;
+}
+#phoneno{
+    margin-right: 20px;
+}
+#phoneno, #phonenom{
+    width: 155px;
+}
+#messagetype{
+    padding: 8px 296px 8px 10px;
+    border-color: lightgray;
+}
+#message{
+    width: 542px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-left: 6px;
+}
+hr{
+    border: 1px solid aliceblue;
+}
+button{
+    background-color: transparent;
+    padding: 8px 20px;
+    margin-top: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 12px;
+    border: 2px solid;
+    border-radius: 4px;
+}
+.text-area{
+    display: flex;
+}
