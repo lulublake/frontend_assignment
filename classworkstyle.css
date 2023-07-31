@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.user{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.top_user{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.profile-img{
+    border-radius: 100%;
+    width: 40px;
+    border: 3px solid gray;
+}
+.profile-name{
+    display: flex;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8px;
+}
+.text p{
+    color: rgb(79, 79, 79);
+    font-size: 14px;
+}
+a{
+    align-self: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+a:hover{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: greenyellow;
+}
+a:link{
+    color: brown;
+}
+
+.bottom_user{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 20px;
+    border: 2px dashed;
+    margin-top: 5px;
+}
+.like, .comment{
+    display: flex;
+}
+.comment{
+    font-family: 'Playfair Display', serif;
+    
+}
+.fa-regular{
+    font-size: 24px;
+}
+.like p, .comment p{
+    align-self: center;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        background-color: rgb(211, 222, 231);
+        display: flex;
+        justify-content: center;
+        padding-top: 60px;
+    }
+    .user{
+        max-width: 600px;
+    }
+    .user-image{
+        height: 500px;
+    }
+}
