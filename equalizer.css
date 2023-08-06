@@ -129,7 +129,7 @@ img{
         justify-content: space-between;
     }
     .head-section{
-        padding: 100px 200px 90px;
+        padding: 100px 100px 90px;
     }
     .head-section h1{
         font-size: 65px;
@@ -141,10 +141,10 @@ img{
         font-size: 18px;
     }
     .top_body_section{
-        padding: 70px 200px;
+        padding: 70px 100px;
     }
     .bottom_body_section{
-        padding: 50px 200px 70px;
+        padding: 50px 100px 70px;
     }
     .top_body_section h1{
         font-size: 45px;
@@ -162,7 +162,7 @@ img{
         font-size: 28px;
     }
     .footer{
-        padding: 30px 200px;
+        padding: 30px 100px;
     }
     .bottom{
         padding: 30px 0 0;
